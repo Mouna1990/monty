@@ -5,8 +5,6 @@
 #include <stddef.h>
 #include <unistd.h>
 
-
-
 /**
 * main - Entry point for the Monty program.
 * The main function reads Monty byte code from a file, interprets and executes
