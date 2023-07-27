@@ -1,7 +1,8 @@
 #include "monty.h"
 
 /**
-* monty_sub - Subtracts the top element of the stack from the second top element.
+* monty_sub - Subtracts the top element ofi
+* the stack from the second top element.
 * @stack: Double pointer to the top of the stack
 * @line_number: The current line number in the file
 */

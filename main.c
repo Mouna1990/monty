@@ -14,8 +14,10 @@
 * as specified by the bytecode instructions.
 *
 * @argc: Number of command-line arguments.
-* @argv: Array of command-line arguments where the first argument is the program name
-*        and the second argument is the path to the file containing Monty byte code.
+* @argv: Array of command-line arguments where the first
+* argument is the program name
+*        and the second argument is the path to the
+*        file containing Monty byte code.
 * Return: 0 on successful execution, or EXIT_FAILURE on failure.
 */
 int main(int argc, char *argv[])

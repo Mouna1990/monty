@@ -1,7 +1,8 @@
 #include "monty.h"
 
 /**
-* monty_mul - Multiplies the second top element of the stack with the top element.
+* monty_mul - Multiplies the second top element
+* of the stack with the top element.
 * @stack: Double pointer to the top of the stack
 * @line_number: The current line number in the file
 */

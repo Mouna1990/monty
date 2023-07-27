@@ -18,5 +18,5 @@ exit(EXIT_FAILURE);
 }
 
 num = atoi(arg);
-monty_add(stack, num);
+monty_add_node(stack, num);
 }

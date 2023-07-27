@@ -1,12 +1,14 @@
 #include "monty.h"
 
 /**
-* monty_execute_instruction - Executes the opcode and its corresponding function.
+* monty_execute_instruction - Executes the
+* opcode and its corresponding function.
 * @stack: Double pointer to the top of the stack
 * @opcode: The opcode to be executed
 * @line_number: The current line number in the file
 */
-void monty_execute_instruction(stack_t **stack, char *opcode, unsigned int line_number)
+void monty_execute_instruction(stack_t **stack,
+char *opcode, unsigned int line_number)
 {
 int i;
 instruction_t instructions[] = {

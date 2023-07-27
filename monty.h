@@ -58,4 +58,5 @@ void monty_execute_instruction(stack_t **stack, char *opcode, unsigned int line_
 void monty_free_stack(stack_t *stack);
 stack_t *add_node(stack_t **stack, int n);
 int is_ascii(int c);
+stack_t *monty_add_node(stack_t **stack, int n);
 #endif /* MONTY_H */
